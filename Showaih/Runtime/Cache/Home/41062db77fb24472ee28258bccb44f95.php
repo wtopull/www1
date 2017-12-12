@@ -65,7 +65,7 @@
 </head>
 <body>
   <div class="login">
-    <form action="/index.php/Home/Index/index" method="post" target="nm_iframe1">
+    <form action="/" method="post" target="nm_iframe1">
       <h2>管理员登陆</h2>
       <ul>
         <li>账号：<input type="text" name="nick_name" placeholder="请输入账号" id="d"/></li>

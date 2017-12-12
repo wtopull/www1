@@ -1,0 +1,83 @@
+[ 2017-12-13T00:14:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `fanwe_user` [ RunTime:0.2351s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpStudy\WWW\www1\Showaih\Home\Controller\IndexController.class.php 第 8 行.
+SQL: SELECT MAX(id) AS tp_max FROM `fanwe_user` LIMIT 1   [ RunTime:0.2796s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpStudy\WWW\www1\Showaih\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT MAX(id) AS tp_max FROM `fanwe_user` LIMIT 1   [ RunTime:0.3070s ]
+NOTIC: [8] Use of undefined constant ac_id - assumed 'ac_id' E:\phpStudy\WWW\www1\Showaih\Home\Controller\IndexController.class.php 第 10 行.
+SQL: SELECT * FROM `fanwe_user` WHERE ( id > 100388 ) LIMIT 4   [ RunTime:0.3085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-12-13T00:29:17+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `fanwe_user` [ RunTime:0.3109s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpStudy\WWW\www1\Showaih\Home\Controller\IndexController.class.php 第 8 行.
+SQL: SELECT MAX(id) AS tp_max FROM `fanwe_user` LIMIT 1   [ RunTime:0.2043s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpStudy\WWW\www1\Showaih\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT MAX(id) AS tp_max FROM `fanwe_user` LIMIT 1   [ RunTime:0.1991s ]
+NOTIC: [8] Use of undefined constant ac_id - assumed 'ac_id' E:\phpStudy\WWW\www1\Showaih\Home\Controller\IndexController.class.php 第 10 行.
+SQL: SELECT * FROM `fanwe_user` WHERE ( id > 100388 ) LIMIT 4   [ RunTime:0.2595s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2017-12-13T00:39:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `fanwe_user` [ RunTime:0.2300s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpStudy\WWW\www1\Showaih\Home\Controller\IndexController.class.php 第 8 行.
+SQL: SELECT MAX(id) AS tp_max FROM `fanwe_user` LIMIT 1   [ RunTime:0.3290s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpStudy\WWW\www1\Showaih\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT MAX(id) AS tp_max FROM `fanwe_user` LIMIT 1   [ RunTime:0.2520s ]
+NOTIC: [8] Use of undefined constant ac_id - assumed 'ac_id' E:\phpStudy\WWW\www1\Showaih\Home\Controller\IndexController.class.php 第 10 行.
+ERR: 1054:Unknown column 'ac_id' in 'field list'
+ [ SQL语句 ] : SELECT MAX(ac_id) AS tp_max FROM `fanwe` LIMIT 1  
+SQL: SELECT * FROM `fanwe_user` WHERE ( id > 100388 ) LIMIT 4   [ RunTime:0.2499s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+

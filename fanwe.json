@@ -1,0 +1,9 @@
+/**
+ Export to JSON plugin for PHPMyAdmin
+ @version 0.1
+ */
+
+// Database 'my_item'
+// my_item.fanwe
+
+[{"id": 100389,"nick_name": "＆雲飞水月＆","user_pwd": "asdqwieoqwe123132","signature": "","create_time": "0000-00-00 00:00:00","update_time": "0000-00-00 00:00:00","is_authentication": 0,"ac_data": "0000-00-00 00:00:00"}, {"id": 100390,"nick_name": "羽1","user_pwd": "asdqwieoqwe123132","signature": "","create_time": "0000-00-00 00:00:00","update_time": "0000-00-00 00:00:00","is_authentication": 0,"ac_data": "0000-00-00 00:00:00"}, {"id": 100391,"nick_name": "逗逗麻麻つ杂货店","user_pwd": "asdqwieoqwe123132","signature": "","create_time": "0000-00-00 00:00:00","update_time": "0000-00-00 00:00:00","is_authentication": 0,"ac_data": "0000-00-00 00:00:00"}, {"id": 100392,"nick_name": "ViVi","user_pwd": "asdqwieoqwe123132","signature": "","create_time": "0000-00-00 00:00:00","update_time": "0000-00-00 00:00:00","is_authentication": 0,"ac_data": "0000-00-00 00:00:00"}]

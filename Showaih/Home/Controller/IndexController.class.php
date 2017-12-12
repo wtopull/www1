@@ -4,30 +4,23 @@ use Think\Controller;
 class IndexController extends Controller {
     public function index(){
     	$fanwe_user =M('Fanwe_user');
-		// $where = array(
-  		//'nick_name' => 'aaa',
-		// );
-		// $rs = $fanwe_user->where($where)->select();
-		// $this->assign('datalist',$rs);
-
-
-        $map = array();
-        $map['nick_name']=$_POST['nick_name'];
-        $map['user_pwd']=md5($_POST['user_pwd']);
-        $res=$fanwe_user->where($map)->select();
-        if($res==null){
-            // $this->error("用户名密码错误");
-            echo "<script type='text/javascript'>alert('用户名密码错误');</script>";
+        $DB_CONFIG1 = M("fanwe","","mysql://asd:asdasd@localhost:3306/my_item");
+        $id1 = $fanwe_user->max(id);
+        $id2 = $fanwe_user->max(id)-4;
+        $data = $DB_CONFIG1-> max(ac_id);
+        dump($data);
+        //$id=100392
+        if($id2 < $id1){
+            $sum =$id1 - $id2;
+            $z = $fanwe_user->where("id > $id2")->limit($sum)->select();//$z=新注册的信息
+            echo "有新注册".$sum."条";
+            $b = $DB_CONFIG1 -> addAll($z);
+            // dump($z);
         }else{
-            session("nick_name",$_POST['nick_name']);
-            // $this->success("登录成功");
-
-
-             // redirect('Index/login', 5, '正在登陆中...');
-            echo "<script type='text/javascript'>alert('登录成功');</script>";
+            echo "没有新注册";
         }
-
-		// show_bug($rs);
+        
+        // dump($id1);
 
     	$this -> display();
     }
